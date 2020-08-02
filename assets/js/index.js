@@ -5,6 +5,7 @@ $(function() {
 
         //点击按钮实现退出功能
         $('#btnLogout').on('click', function() {
+            console.log('111');
             //提示用户是否确认退出
             layer.confirm('确定退出登录?', { icon: 3, title: '提示' }, function(index) {
                 //do something
